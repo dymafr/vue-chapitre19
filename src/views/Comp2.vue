@@ -71,14 +71,13 @@
 
 <script>
 export default {
-  name: 'comp2',
+  name: "comp2",
   created() {
     console.log(this.$route);
+    console.log(this.$router);
   }
-}
+};
 </script>
 
 <style scoped>
-
-  
 </style>
